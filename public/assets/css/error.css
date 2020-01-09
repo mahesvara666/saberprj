@@ -1,0 +1,56 @@
+/*
+*	Copyright 2014; Schedule Magic 
+*	Author: Jacob Baring
+*
+*/
+
+html,body
+{
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	background-color: #DDD;
+}
+h2
+{
+	text-align: center;
+}
+.wrap
+{
+	display: table;
+	margin: 0 auto;
+	height: 100%;
+	padding: 0 10em 0 10em;
+}
+
+
+.mini-wrap
+{
+	display: table-cell;
+	vertical-align: middle;
+}
+.box
+{
+	background-color: #EEE;
+	height: 7em;
+	box-shadow: 1px 1px 20px 2px #CCC;
+	padding: 10% 5% 5% 5%;
+}
+.box-install
+{
+	height: 100%;
+	margin: 5% 3% 5% 3% auto;
+}
+.box-foot
+{
+	width: 100%;
+	border-top: 1px solid #888;
+	border-top-width: 70%;
+	padding-bottom: 2rem;
+}
+.box-foot-btn
+{
+	margin-top: 2%;
+	float: right;
+	margin-bottom: 1%;
+}

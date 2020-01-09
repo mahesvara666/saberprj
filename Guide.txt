@@ -1,0 +1,65 @@
+saber - Quick Guide for Dummies
+
+-----------------------------------------
+
+Installation
+
+-----------------------------------------
+
+XAMPP
+
+* - copy <saber> folder to your htdocs
+* - open cmd and run the following commands
+	> cd %path_to_saber%
+	> php artisan migrate
+	> php artisan db:seed
+* - open your browser and browse http://localhost/saber/public/index.php (don't forget the index.php)
+* - login with the default account 
+		username: admin
+		password: password
+
+Development Mode (thru console)
+
+* - open cmd and run the following command
+	> php -S localhost:8888
+
+----------------------------------------
+
+Post Installation 
+
+----------------------------------------
+
+You need to fill informations before you can completely use the system
+
+---------------------------------------
+
+System Structure
+
+---------------------------------------
+
+The most important part of this system are:
+
+	/app/controllers
+	/app/views
+	/app/models
+
+** /app/controllers	
+	- The Business Logic is found here. it is where most of the decision making and processing happens
+** /app/models
+	- Each file from this folder represents the table of same filename. It is the communication to our database.
+** /app/views
+    - The Views is the Presentation of our system, Front End, Graphical User Interface. it is how our data is being rendered.
+
+You can get rid of the rest of the folders but never modify other files and folders, it might cause the system to malfunction
+
+
+--------------------------------------
+
+Developer's Guide
+
+--------------------------------------
+
+to enable debugging modify debug offset from /app/config/app.php set it to true.
+
+
+~ @mahesvara666
